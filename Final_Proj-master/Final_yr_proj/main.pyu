@@ -1,0 +1,5 @@
+from PIL import image
+import pytesseract
+i=Image.open("kej.jpg")
+pytesseract.image_to_string(i)
+

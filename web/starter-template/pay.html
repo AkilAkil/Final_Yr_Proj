@@ -1,0 +1,132 @@
+<html><head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="js/materialize.js" type="text/javascript"></script>
+   <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-1.12.4.js"></script>
+  <script src="js/jquery-ui.js"></script>
+
+<script src="js/jquery-ui.js">   
+    $(function() {
+         $( ".calendar" ).datepicker();   
+    }); 
+
+     $(document).ready(function() {
+    $('select').material_select();
+  });
+
+  $('select').material_select('destroy');
+</script>
+
+    </head>
+<body>
+
+  
+  <div class="row">
+    <form class="col s12"><br><br><br>
+     
+        <div class="input-field col s3 offset-s3">
+          <input placeholder="First Name" id="first_name" type="text" class="validate">
+          <input placeholder="Vehicle number" id="vehno" type="text" class="validate">
+          <input type="date" placeholder="Select the date" class="calendar">
+          </div>
+      <!--  <div class="input-field col s9 offset-s1 ">
+    <div class="input-fiels col s3 offset-s3">               
+ <!-- <select class="browser-default">
+    <option value="" disabled selected>Source</option>
+    <option value="1">Chennai</option>
+    <option value="2">Madurai</option>
+    <option value="3">Ariyalur</option>
+    <option value="4">Karur</option>
+    <option value="5">Nagapattinam</option>
+    <option value="6">Perambalur</option>
+    <option value="7">Pudukkottai</option>
+    <option value="8">Thanjavur</option>
+    <option value="9">Tiruchirappalli</option>
+    <option value="10">Tiruvarur</option>
+</option>
+  </select>              
+            </div>
+  </div>
+
+  <div class="input-field col s9 offset-s1 ">
+    <div class="input-fiels col s3 offset-s3">               
+  <select class="browser-default">
+    <option value="" disabled selected>Destination</option>
+    <option value="1"> Dharmapuri</option>
+    <option value="2"> Coimbatore</option>
+    <option value="3"> Erode</option>
+    <option value="4"> Krishnagiri</option>
+    <option value="5"> Namakkal</option>
+    <option value="6"> The Nilgiris</option>
+    <option value="7"> salem</option>
+    <option value="8"> Tiruppur</option>
+     <option value="9">Tiruchirappalli</option>
+<option value="10">Tiruvarur</option>
+  </select>
+</div>
+  </div>
+-->
+<div class="input-field col s9 offset-s1 ">
+    <div class="input-fiels col s3 offset-s3">               
+  <select class="browser-default">
+    <option value="" disabled selected>Toll Road</option>
+    <option value="1"> East Coast Road (ECR) from Chennai to Pondicherry</option>
+    <option value="2">Chennai Bye Pass Road from Irumbuliyur, Chennai to NH4 Madhavaram, Chennai</option>
+    <option value="3">Chennai ECR - Sholinganallur Road from ECR, Chennai to Sholinganallur, Chennai</option>
+    <option value="4">Chennai OMR - Medavakkam Road from Sholinganallur, Chennai to Medavakkam, Chennai</option>
+    <option value="5">NH 47 Salem to Coimbatore Expressway / Industrial Corridor</option>
+    <option value="6">NH 67 Coimbatore to Trichy</option>
+    <option value="7">NH 7 Hosur to Krishnagiri</option>
+    <option value="8">NH 4 Krishnagiri to Chennai</option>
+    <option value="9">NH 45 Chennai to Villupuram</option>
+    <option value="10">NH 7 Krishnagiri to Salem</option>
+    <option value="11">NH 45B Madurai to Tuticorin</option>
+    <option value="12">NH 45 Dindigul to Trichy</option>
+    <option value="13">NH 45 Villupuram to Trichy</option>
+    <option value="14">NH 7 Salem to Madurai</option>
+    <option value="15">NH 7A Tirunelveli to Tuticorin</option>
+    <option value="16">Chennai to Ennore Express Way (Inner Ring Road & Manali Oil Refinery Rd.)</option>
+    <option value="17">NH 45B Madurai to Trichy</option>
+</option>
+    
+  </select>
+</div>
+  </div>
+
+
+
+
+
+<div class="input-field col s9 offset-s1 ">
+    <div class="input-fields col s3 offset-s3">               
+  <select class="browser-default">
+    <option value="" disabled selected>Vehicle</option>
+    <option value="1"> Motorised Three Wheelers</option>
+    <option value="2"> Car</option>
+    <option value="3"> Light Commercial Vehicles</option>
+    <option value="4"> Truck</option>
+    <option value="5"> Bus</option>
+    <option value="6"> Multi Axle Vehicles</option>
+    </option>
+</select>              
+</div>
+  </div>
+
+<div class="input-field col s9 offset-s1 ">
+    <div class="input-fields col s3 offset-s3">
+      <br><br><br> 
+
+    <a class="waves-effect waves-light btn" href="web/index1.html"><i class="material-icons left" >cloud</i>Proceed To Pay</a>    
+      </form>
+    </div>
+    </div> 
+  </div>
+  </body>
+  </html>      

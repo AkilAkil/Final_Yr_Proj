@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+html, body {
+  background: #EDF2F4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.login {
+  background: #2B2D42;
+  border-radius: 4px;
+  width: 600px;
+  height: 600px;
+}
+.login_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.login_inner__avatar {
+  background: url(/home/akil/Desktop/toll.png);
+  background-size: cover;
+  border: 3px solid #EDF2F4;
+  width: 4em;
+  height: 4em;
+  margin: 0 auto;
+  -webkit-transform: translateY(-35px);
+          transform: translateY(-35px);
+  border-radius: 100%;
+}
+.login_inner__check {
+  border: 1px dashed #FFF;
+  border-radius: 100%;
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  margin: 185px 120px;
+  opacity: 0;
+  text-align: center;
+}
+.login_inner__check--complete i {
+  line-height: 4em;
+  color: #FFF;
+  opacity: 0;
+}
+.login_inner input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #33354e;
+  width: 100%;
+  padding: 1.1em;
+  color: #FFF;
+  outline: none;
+  font-size: 0.9em;
+  text-align: left;
+}
+.login_inner input:last-of-type {
+  border-bottom: none;
+}
+.login_inner input[type="submit"] {
+  background: #4ECDC4;
+  cursor: pointer;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  text-align: center;
+  margin: 3em auto 0 auto;
+}
+
+.loggedin {
+  background: #2B2D42;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.loggedin h2 {
+  opacity: 0;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+::-webkit-input-placeholder {
+  color: #FFF;
+}
+
+:-moz-placeholder {
+  color: #FFF;
+}
+
+::-moz-placeholder {
+  color: #FFF;
+}
+
+:-ms-input-placeholder {
+  color: #FFF;
+}
+
+::-ms-input-placeholder {
+  color: #FFF;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 4;
+}
+
+@-webkit-keyframes spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
